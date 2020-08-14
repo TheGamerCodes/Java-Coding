@@ -37,9 +37,9 @@ public class login extends javax.swing.JFrame {
     public login() {
         initComponents();
         
-            String url = "jdbc:mysql://127.0.0.1:3306/watcherdb";
+            String url = "jdbc:mysql://127.0.0.1:3306/db";
             String user = "root";
-            String password = "2012Apocalypse.";
+            String password = "password";
             
       try {
         conn = DriverManager.getConnection(url,user,password);
